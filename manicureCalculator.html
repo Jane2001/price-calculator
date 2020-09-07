@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Manicure Calculator</title>
+	<script src="manicureCalculator.js" defer></script>
+	<link rel="stylesheet" type="text/css" href="manicureCalculator.css">
+	
+</head>
+<body>
+	<main>
+		<p>Nails of your dream</p>
+		<section>
+			
+			<form name="manicure" method="get">
+		<fieldset>
+			<label id="labelId" for="polish"></label>
+			<select name="polish" id="polish">
+				<option class="polishOption"></option>
+				<option class="polishOption"></option>
+				<option class="polishOption"></option>
+				<option class="polishOption"></option>
+				<option class="polishOption"></option>
+			</select>
+			
+		</fieldset>
+		<fieldset id="manic">
+			<div class="row">
+				<input type="radio" name="manicure" id="withManic" value="100"/>
+				<label for="withManic">With manicure</label>
+				<input type="text" name="typeOfManicure" placeholder="Type of manicure" list="manicureTypes" disabled/>
+				<datalist id="manicureTypes">
+					<option class="manicureOption"></option>
+					<option class="manicureOption"></option>
+					<option class="manicureOption"></option>
+					<option class="manicureOption"></option>
+				</datalist>
+			</div>
+			<div class="row">
+				<input type="radio" name="manicure" id="withoutManic"/>
+				<label for="withoutManic">Without manicure</label>
+			</div>
+		</fieldset>
+		<fieldset id="design">
+			<legend>Design (in textbox enter number of nails for design):</legend>
+			<div class="row">
+				<input type="checkbox" name="french" id="french" class="checkboxDesign"/>
+				<label class="designLabel" for="french"></label>
+				<input class="text" type="number" name="frenchAmOfNails" min="1" max="10" />
+			</div>
+			<div class="row">
+				<input type="checkbox" name="rub" id="rub" class="checkboxDesign"/>
+				<label class="designLabel" for="rub"></label>
+				<input class="text" type="number" name="rubAmOfNails" min="1" max="10"/>
+			</div>
+			<div class="row">
+				<input type="checkbox" name="foil" id="foil" class="checkboxDesign"/>
+				<label class="designLabel" for="foil"></label>
+				<input class="text" type="number" name="foilAmOfNails" min="1" max="10"/>
+			</div>
+			<div class="row">
+				<input type="checkbox" name="painting" id="paint" class="checkboxDesign"/>
+				<label class="designLabel" for="paint"></label>
+				<input class="text" type="number" name="paintingAmOfNails" min="1" max="10"/>
+			</div>
+			
+			<div class="row">
+				<input type="checkbox" name="aerography " id="aerog" class="checkboxDesign"/>
+				<label class="designLabel" for="aerog"></label>
+				<input class="text" type="number" name="aerogAmOfNails" min="1" max="10"/>
+			</div>
+			<div class="row">
+				<input type="checkbox" name="slider" id="slider" class="checkboxDesign"/>
+				<label class="designLabel" for="slider"></label>
+				<input class="text" type="number" name="sliderAmOfNails" min="1" max="10"/>
+			</div>
+			<div class="row">
+				<input type="checkbox" name="glitter" id="glitter" class="checkboxDesign"/>
+				<label class="designLabel" for="glitter"></label>
+				<input class="text" type="number" name="glitAmOfNails" min="1" max="10"/>
+			</div>
+
+		</fieldset>
+		<fieldset>
+			<legend>Strengthening:</legend>
+			<select name="strength" id="strength">
+				<option class="means"></option>
+				<option class="means"></option>
+				<option class="means"></option>
+				<option class="means"></option>
+			</select>
+		</fieldset>
+	</form>
+	<div id="calculation">
+		<div id="button">Calculate the price</div>
+		<div id="result"></div>
+	</div>
+	<div id="textNum">
+		<span>
+		Do You need consultation?
+		Leave your phone number and we'll call you)
+		</span>
+		<input type="text" name="phoneNumber" placeholder="Your phone number..." pattern="[0-9] {10}"/>
+	</div>
+		
+			
+		</section>
+		
+	</main>
+
+
+</body>
+</html>

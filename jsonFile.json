@@ -1,0 +1,8 @@
+{	"polArray": ["Gel polish:","Gloss","Kodi","F.O.X.","Blaze","Luxio"],
+	"polPrice": [150,200,250,210,180],
+	"manicureTypes": ["hardware","combined","classic","european"],
+	"designArray": ["French","Rubbing","Foil","Painting","Aerography","Sliders","Glitter"],
+	"designPrice": [10,10,20,20,15,30,30],
+	"strArray": ["gel","acrylic","base","acrylic gel"],
+	"strPrice": [120,70,30,170]
+}

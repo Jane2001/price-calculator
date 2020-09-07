@@ -1,0 +1,135 @@
+@font-face{
+	font-family: "Nautilus Pompilius";
+	font-family: "Comfortaa-Regular";
+	src: url("D:/Documents/fonts/Comfortaa-Regular.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+body{
+	display: flex;
+	background-color: #FFCC99;
+	align-items: center;
+	justify-content: center;
+	font-family: "Nautilus Pompilius";
+}
+#textNum span,#strength,.row,#manic,#polish{
+	font-family: "Comfortaa";
+}
+main p{
+	position: relative;
+	/*font-family: "Nautilus Pompilius";*/
+	white-space: nowrap;
+	align-self: center;
+	font-size: 80px;
+	margin-top: -1%;
+	margin-left: 15%;
+}
+main{
+	background: url('girl.jpg') no-repeat;
+	height: 730px;
+	width: 1500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-left: 6%;
+
+}
+section{
+	width: 30%;
+	height: 50%;
+	align-self: flex-end;
+	margin-right: 17%;
+	margin-bottom: 10%;
+
+}
+fieldset{
+	margin-bottom: 15px; 
+	border-color: #FFCC99;
+	background-color: rgba(255, 228, 196,0.4);
+	
+	
+}
+fieldset:first-child{
+	margin-top: -80px;
+	text-align: center;
+}
+fieldset:last-child{
+	text-align: center;
+
+
+}
+#labelId{
+	
+	font-size: 20px;
+}
+#polish{
+	height: 30px;
+	width: 80px;
+}
+#manic,#design{
+	display: flex;
+	flex-direction: column;
+}
+#design{
+	text-align: center;
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+
+}
+.row input[name="typeOfManicure"]{
+	margin-left: 30px;
+}
+legend{
+	white-space: nowrap;
+	/*font-family: "Nautilus Pompilius";*/
+	font-size: 20px;
+}
+#strength{
+	height: 30px;
+	width: 80px;
+}
+.text{
+	position: absolute;
+	margin-left: 140px;
+	margin-bottom: 5px;
+	width: 30px;
+}
+#calculation{
+	display: flex;
+	flex-direction: row;
+	/*font-family: "Nautilus Pompilius";*/
+	font-size: 20px;
+	justify-content: space-between;
+
+}
+#button{
+	border: 1px solid black;
+	background-color: #FFCC99;
+	width: 150px;
+	height: 25px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 18px;
+}
+#textNum{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	
+}
+#textNum span{
+	position: relative;
+	white-space: pre-wrap;
+	font-size: 18px;
+	color: black;
+	margin-left: 0;
+}
+#textNum input{
+	width: 150px;
+	margin-left: 80px;
+}
+
+
